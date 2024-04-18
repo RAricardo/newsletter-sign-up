@@ -1,0 +1,35 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text-input label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text-input .labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.error-label {
+  color: var(--Vermellion, #ff6155);
+}
+
+.text-input input {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
+}
+
+.text-input.error input {
+  border: 1px solid var(--Vermellion, #ff6155);
+  background: rgba(255, 97, 85, 0.15);
+  color: var(--Vermellion, #ff6155);
+}
