@@ -17,7 +17,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Live Site URL: [https://raricardo.github.io/recipe-main-app](https://raricardo.github.io/newsletter-sign-up/)
+- Live Site URL: https://raricardo.github.io/newsletter-sign-up/
 
 ### Built with
 
